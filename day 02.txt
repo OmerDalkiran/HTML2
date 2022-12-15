@@ -1,0 +1,318 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Fundamentals</title>
+  </head>
+  <body>
+    <p
+      style="
+        color: rgba(5, 26, 14, 0.712);
+        text-align: center;
+        background-color: rgb(56, 112, 84);
+      "
+    >
+      <!-- p ile hemen onun yanindaki sag okun arasina yaziliyor codelar -->
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab, deleniti
+      sunt amet modi in neque sequi asperiores porro ea itaque, eaque suscipit
+      obcaecati eum molestiae distinctio quam. Vel, ratione.
+    </p>
+
+    <div style="background-color: orange; color: blue; font-size: 20px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima harum qui
+      fugit debitis molestiae ab veritatis impedit voluptatum, eligendi laborum
+      soluta odio dicta culpa modi officiis, voluptatibus totam. Odit, repellat!<!--  -->
+    </div>
+
+    
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="width:600px;">
+      <h1 style="color: white; background-color: orange; text-align: center;">
+        Lorem, ipsum dolor.
+      </h1>
+      <p style="text-align: left; font-size: 1rem">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum delectus
+        ab nulla animi dolores eum soluta, pariatur aperiam saepe. Nisi officiis
+        commodi aperiam reiciendis, dignissimos ratione repellat ad odio
+        molestias?
+      </p>
+      <p style="text-align: center; font-size: 2rem">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime facere
+        voluptatem blanditiis
+        <span style="color: red">debitis quas sapiente</span> consequatur omnis
+        architecto necessitatibus suscipit. Odio corporis dolores sint sapiente
+        itaque quis, officia laboriosam nisi.
+      </p>
+      <p style="text-align: justify; font-size: 20px">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime facere
+        voluptatem blanditiis debitis quas sapiente consequatur omnis architecto
+        necessitatibus suscipit. Odio corporis dolores sint sapiente itaque
+        quis, officia laboriosam nisi.
+      </p>
+      <div style="background-color: red; width: 200px; height: 200px">
+        Merhaba
+      </div>
+      <span style="background-color: red; width: 300px">Merhaba</span>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div{
+          width:60%;
+      }
+      h1 {
+        background-color: yellow;
+        text-align: center;
+        color: red;
+      }
+      h2 {
+        text-align: center;
+        color: red;
+      }
+      p {
+        font-size: 1.2rem;
+        color: gray;
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+   <div>
+      <h1>Internal CSS</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia qui
+        sunt sequi quas suscipit possimus? Officiis voluptatem nobis nulla
+        autem, ipsam expedita quae nemo iusto cupiditate, esse, harum
+        perferendis. Maxime.
+      </p>
+      <h2>Test Başlık 1</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+        voluptate in veritatis odio officiis eos quibusdam, ducimus iusto quam
+        rem eum porro amet sit deserunt. Reprehenderit possimus blanditiis
+        veritatis illo?
+      </p>
+      <h2>Test Başlık 2</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+        nostrum eum, quasi porro labore, sequi enim debitis, qui magni
+        voluptatem ea est totam minus numquam neque beatae et fugit at!
+      </p>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: aquamarine;
+      }
+      h1,h3 {
+        text-align: center;
+        color:red;
+        background-color: yellow;
+      }
+    
+      p{
+          font-size:1.2rem;
+      }
+      p.desc{
+        font-size:1.4rem;
+        color:blue;
+      }
+      .span-2{
+        color:brown;
+        font-size:1.2rem;
+        font-weight: bold;
+        font-style:italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bilgisayarın Temel Bileşenleri</h1>
+    <p class="desc">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, ipsum
+      veritatis dolorem
+      <span>eius error sit quia eligendi, omnis, perferendis</span> dicta ex
+      nisi illum voluptatibus animi eos nobis totam nam velit?
+    </p>
+    <h2>Donanım</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non nostrum
+      corrupti,
+      <span class="span-2">distinctio reprehenderit eius</span> sapiente cum eum
+      aperiam repudiandae maiores sit voluptates ad temporibus assumenda quam
+      modi vitae in porro.
+    </p>
+    <h3>İç Donamım Birimleri</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quo,
+      doloremque repellat dolorem similique accusamus ipsum praesentium
+      provident nulla architecto, totam neque incidunt consequuntur perspiciatis
+      libero ullam harum. Cupiditate, voluptatibus.
+    </p>
+    <h3>Çevre Birimleri</h3>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque nobis
+      voluptatibus error, ratione reprehenderit amet saepe dolore omnis et eius
+      incidunt accusamus beatae hic rerum, tenetur asperiores similique fugiat
+      animi!
+    </p>
+    <h2>Yazılım</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+      aliquam adipisci impedit mollitia nihil corrupti in molestiae, eius rerum
+      et iusto esse quidem tenetur, ipsa reprehenderit distinctio natus saepe
+      obcaecati?
+    </p>
+    <h3>İşletim Sistemi</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+      voluptatibus odio odit nam repellendus fugiat nesciunt, exercitationem ut
+      eius ratione commodi tempora, amet porro cupiditate, est blanditiis.
+      Doloremque, nisi harum.
+    </p>
+    <h3>Paket Programlar</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nam, cum
+      nostrum aut dignissimos a eveniet soluta, laborum obcaecati asperiores
+      possimus deserunt. Enim quasi qui cupiditate minima assumenda voluptatum
+      aperiam!
+    </p>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+body{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    width: 80%;
+    background-color: pink;
+}
+
+.container p{   /* sadece container in icinde olan p ler class ismi div olan tag in icindeki plar */
+font-size: 14px;
+
+}
+
+div.container h2, div.container h3 {
+    text-align: center;
+    color: yellow;
+    background-color: darkblue;
+
+}
+    </style>
+</head>
+<body>
+    
+<div class="container"> 
+    <h2> Sıfırdan Komple Web Developer Eğitimi</h2>
+    <hr>
+    <h3> Kurs Amaci</h3>
+    <p>Sifirdan Komple WEb Developer Egitimi</p>
+
+<p>
+    Kursumuzun temel amaci web gelistirme dunyasina adim atmak isteyenlere rehberlik etmektir.
+</p>
+
+<h3> Kurs Hedefi</h3>
+
+<p>
+    Kurs sonunda bir <span><strong>web developer</strong></span> için
+        gereken tüm araçları ve konuları öğrenmiş <em>olacaksınız.</em>
+<p>
+        Kurs sonunda her sektöre hitap eden
+        <span><u>tanıtım siteleri , blog tarzındaki web sitelerini</u></span>
+        kolaycana hazırlayabilirsiniz. Hatta hazırladığınız bu sitelere bir
+        <u>yönetim paneli</u> hazırlayıp site içeriklerini tek bir yerden
+        kolaycana yönetebilirsiniz.
+      </p>
+      <p>
+        <del>1000$</del> yerine <b>sadece <mark>750$</mark></b>
+      </p>
+</p>
+</div>
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/06-external.css">
+  </head>
+  <body>
+    <h1>External css</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quasi
+      corporis, nobis mollitia provident amet quia vero tenetur magnam.
+      Necessitatibus aspernatur iure vel similique possimus quas totam nam,
+      explicabo quo.Lorem ipsum <span class ="aaa">
+
+     dolor sit, amet consectetur adipisicing elit. Ea quasi
+      corporis, nobis mollitia provident amet quia vero tenetur magnam.
+      Necessitatibus aspernatur iure  </span> vel similique possimus quas totam nam,
+      explicabo quo.
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quasi
+      corporis, nobis mollitia provident amet quia vero tenetur magnam.
+      Necessitatibus aspernatur iure vel similique possimus quas totam nam,
+      explicabo quo.<!--  -->
+    </p>
+    <p>
+        <div class="content"> 
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quasi
+      corporis, nobis mollitia <span class ="aaa bbb"> provident amet quia vero tenetur magnam.
+      Necessitatibus aspernatur </span>iure vel similique possimus quas totam nam,
+      explicabo quo.<!--  -->
+    </div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quasi
+      corporis, nobis mollitia provident amet quia vero tenetur magnam.
+      Necessitatibus aspernatur iure vel similique possimus quas totam nam,
+      explicabo quo.<!--  -->
+    </p>
+  </body>
+</html>
